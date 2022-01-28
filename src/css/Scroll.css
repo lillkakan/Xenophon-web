@@ -1,0 +1,20 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  background-color: #7477de;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  text-align: center;
+  font-family: Ubuntu Mono;
+  color: #7477de;
+  text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+}

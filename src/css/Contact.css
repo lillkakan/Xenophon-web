@@ -1,0 +1,23 @@
+.contact {
+  overflow: hidden;
+  background-color: #56c5cb;
+  padding: 10px 10px 0px 10px;
+}
+
+.contact a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 6px;
+  transition: transform .2s;
+}
+
+.contact a:hover {
+  filter: invert(45%) sepia(62%) saturate(1592%) hue-rotate(215deg) brightness(95%) contrast(81%);
+  transform: scale(1.2);
+}
+
+.contact a.active {
+  background-color: #56c5cb;
+  color: white;
+}
