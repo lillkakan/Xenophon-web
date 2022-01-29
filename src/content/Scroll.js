@@ -1,6 +1,6 @@
 import '../css/Scroll.css'
 import bigImage from '../images/xenophon.png'
-import bigImageNo3D from '../images/xenophon_no3d.png'
+import bigImageNo3D from '../images/xenophon_keyless.png'
 import bigImageBack from '../images/xenophon_back.png'
 import useWindowDimensions from '../functions/useWindowDimensions';
 import { useState } from 'react';
@@ -15,7 +15,7 @@ function Scroll () {
     if (imageSrc === bigImage){
       setImageSrc(bigImageNo3D)
     } else if (imageSrc === bigImageNo3D) {
-      setImageSrc(bigImageBack)
+      setImageSrc(bigImage)
     } else if (imageSrc === bigImageBack) {
       setImageSrc(bigImage)
     }

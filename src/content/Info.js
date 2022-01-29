@@ -8,8 +8,8 @@ function Info (props) {
   return (
     <div>
       <div className='info-box'>
-        <h1 style={{fontSize: "60px"}} >Keymap</h1>
-        <h2 style={{fontSize: "30px"}} >Feutures a Swedish layout</h2>
+        
+        <h2 style={{fontSize: "30px"}} >Features a Swedish key layout</h2>
       </div>
       <div className='container' style={{paddingTop: "20px"}} >
         <div className='fixed'>
