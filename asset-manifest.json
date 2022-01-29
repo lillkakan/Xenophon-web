@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Xenophon-web/static/css/main.cace7a18.chunk.css",
-    "main.js": "/Xenophon-web/static/js/main.a221c015.chunk.js",
-    "main.js.map": "/Xenophon-web/static/js/main.a221c015.chunk.js.map",
+    "main.js": "/Xenophon-web/static/js/main.db673d40.chunk.js",
+    "main.js.map": "/Xenophon-web/static/js/main.db673d40.chunk.js.map",
     "runtime-main.js": "/Xenophon-web/static/js/runtime-main.ef55e17e.js",
     "runtime-main.js.map": "/Xenophon-web/static/js/runtime-main.ef55e17e.js.map",
     "static/js/2.fa948eb4.chunk.js": "/Xenophon-web/static/js/2.fa948eb4.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.ef55e17e.js",
     "static/js/2.fa948eb4.chunk.js",
     "static/css/main.cace7a18.chunk.css",
-    "static/js/main.a221c015.chunk.js"
+    "static/js/main.db673d40.chunk.js"
   ]
 }
