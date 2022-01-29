@@ -5,9 +5,16 @@
   background-color: #7477de;
 }
 
-.text-on-image {
+.text-on-top-image {
   position: absolute;
   top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-on-bottom-image {
+  position: absolute;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -17,4 +24,11 @@
   font-family: Ubuntu Mono;
   color: #7477de;
   text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+}
+
+.slogan {
+  text-align: center;
+  font-family: 'Dongle';
+  color: #56c5cb;
+  text-shadow: -1px -1px 0 #7477de, 1px -1px 0 #7477de, -1px 1px 0 #7477de, 1px 1px 0 #7477de;
 }

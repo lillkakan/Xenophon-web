@@ -1,27 +1,35 @@
 import '../css/Scroll.css'
 import bigImage from '../images/xenophon.png'
-import bigImage2 from '../images/xenophon_bak.png'
+import bigImageNo3D from '../images/xenophon_no3d.png'
+import bigImageBack from '../images/xenophon_back.png'
 import useWindowDimensions from '../functions/useWindowDimensions';
+import { useState } from 'react';
 
 function Scroll () { 
 
   const { width } = useWindowDimensions();
+  const [imageSrc, setImageSrc] = useState(bigImage);
 
-  var imageOne = true;
+  function setImage () {
 
-  function getImage(){
-    if (imageOne){
-      return(bigImage)
-    } else {
-      return(bigImage2)
+    if (imageSrc === bigImage){
+      setImageSrc(bigImageNo3D)
+    } else if (imageSrc === bigImageNo3D) {
+      setImageSrc(bigImageBack)
+    } else if (imageSrc === bigImageBack) {
+      setImageSrc(bigImage)
     }
+
   }
 
   return (
     <div class='container' >
-      <img src={getImage()} alt="bigImage" style={{width: "100%"}}/>
-      <div className='text-on-image'>
+      <img src={imageSrc} onClick={setImage} alt="bigImage" style={{width: "100%"}}/>
+      <div className='text-on-top-image'>
         <h1 class='text' style={{fontSize: width/9}}>Xenophon</h1>
+      </div>
+      <div className='text-on-bottom-image'>
+        <h1 class='slogan' style={{fontSize: width/25}}>A ergonomic split Keyboard</h1>
       </div>
     </div>
   )

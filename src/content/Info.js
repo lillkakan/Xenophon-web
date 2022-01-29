@@ -1,17 +1,23 @@
 import '../css/General.css'
+import '../css/Info.css'
 import leftSide from '../images/leftKeys.png'
+import rightSide from '../images/rightKeys.png'
 
-function Info () {
+function Info (props) {
 
   return (
-    <div className='container' >
-      <div className='fixed' >
-        <img src={leftSide} alt="bigImage" style={{width: "82%"}}/>
+    <div>
+      <div className='info-box'>
+        <h1 style={{fontSize: "60px"}} >Keymap</h1>
+        <h2 style={{fontSize: "30px"}} >Feutures a Swedish layout</h2>
       </div>
-      <div className='flex-item' >
-        <h1 class='info-text' >Features an</h1>
-        <h1 class='info-text' >Ortholinear design</h1>
-        <h2 class='info-text' >Ergonomic!</h2>
+      <div className='container' style={{paddingTop: "20px"}} >
+        <div className='fixed'>
+          <img src={leftSide} alt="asdf" style={{width: "85%"}}/>
+        </div>
+        <div className='flex-item' >
+          <img src={rightSide} alt="adfasdf" style={{width: "85%"}}/>
+        </div>
       </div>
     </div>
   )

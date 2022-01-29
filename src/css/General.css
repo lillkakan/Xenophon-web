@@ -1,8 +1,8 @@
 
 * {
   text-align: center;
-  font-family: Ubuntu Mono;
-  color: black;
+  font-family: 'Dongle';
+  color: #7477de;
 }
 
 h1 {
@@ -14,6 +14,14 @@ h1 {
 
 p {
   font-size: 24px;
+}
+
+.info-box {
+  background-color: #56c5cb;
+  text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .container {

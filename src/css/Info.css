@@ -1,20 +1,7 @@
 
-.info-window {
-  overflow: hidden;
-}
-
-.window-left {
-  float: left;
-}
-
-.window-right {
-  overflow: hidden;
-}
-
-
 .info-text {
   text-align: center;
-  font-family: Ubuntu Mono;
+  font-family: 'Dongle';
   color: #56c5cb;
   text-shadow: -1px -1px 0 #7477de, 1px -1px 0 #7477de, -1px 1px 0 #7477de, 1px 1px 0 #7477de;
 }
