@@ -14,7 +14,7 @@
 
 .text-on-bottom-image {
   position: absolute;
-  bottom: 0;
+  bottom: -8%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -29,6 +29,6 @@
 .slogan {
   text-align: center;
   font-family: 'Dongle';
-  color: var(--upperColor);
+  color: #0F0F0F;
   text-shadow: -1px -1px 0 var(--botColor), 1px -1px 0 var(--botColor), -1px 1px 0 var(--botColor), 1px 1px 0 var(--botColor);
 }

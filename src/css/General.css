@@ -11,6 +11,12 @@ h1 {
   margin: 0;
   padding: 0;
   line-height: 150%;
+  display: inline-block;
+}
+
+h2 {
+  color: #0F0F0F;
+  user-select: none;
 }
 
 p {
@@ -19,9 +25,6 @@ p {
 
 .info-box {
   background-color: var(--upperColor);
-  text-shadow: -1px -1px 0 var(--upperColor), 1px -1px 0 24var(--upperColor)6EB9, -1px 1px 0 var(--upperColor), 1px 1px 0 var(--upperColor);
-  border-radius: 20px;
-  width: 90%;
   margin: 0 auto;
 }
 

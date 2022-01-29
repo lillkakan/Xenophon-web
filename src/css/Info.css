@@ -6,6 +6,31 @@
   text-shadow: -1px -1px 0 var(--botColor), 1px -1px 0 var(--botColor), -1px 1px 0 var(--botColor), 1px 1px 0 var(--botColor);
 }
 
-.thisText {
-  color: #eac435;
+.choice {
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: transform .2s;
+}
+
+.choiceButton {
+  
+  border-style: solid;
+  border-width: 15px 15px;
+  border-radius: 50px;
+}
+
+.choiceButton:hover {
+  transform: scale(1.2);
+}
+
+.choiceButton.active {
+  background-color: var(--upperColor);
+}
+
+.circle {
+  border: 2px solid red;
+  background-color: #FFFFFF;
+  height: 100px;
+  border-radius:50%;
+  width: 100px;
 }
