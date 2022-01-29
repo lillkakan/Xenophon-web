@@ -25,7 +25,7 @@ function Processor (props) {
       <div className='info-box'>
         <h2 className='thisText' style={{fontSize: props.width/18}} >Features Two ATmega32U4</h2>
       </div>
-      <div className='container' >
+      <div className='container' style={{paddingBottom: "40px"}} >
         <div className='fixed'>
           <img src={u1} alt="leftSide" style={{width: circleWidth}}/>
         </div>

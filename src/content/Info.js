@@ -24,17 +24,9 @@ function Info (props) {
     }
   }
 
-  function setChoice (choice) {
-    if (choice === "int"){
-      setchoice(swed)
-    } else if (choice === "swe"){
-      setchoice(inter)
-    }
-  }
-
   return (
     <div >
-      <div className='info-box' >
+      <div  className='info-box' >
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} >Features a </h2>
         <h2 className='choice' style={
           {
@@ -42,13 +34,12 @@ function Info (props) {
             color: choice.color, 
             borderColor: choice.color === swed.color ? inter.color : swed.color,
             display: "inline", 
-            lineHeight: "190%"
           }
         } onClick={toggleChoice}>{choice.name}</h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>
         
       </div>
-      <div className='container' >
+      <div className='container' style={{paddingTop: "40px"}} >
         <div className='fixed'>
           <img src={choice.left} alt="leftSide" style={{width: width}}/>
         </div>
