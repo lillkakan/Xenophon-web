@@ -5,14 +5,8 @@ import Contact from './Contact'
 
 function Header (props) {
 
-  function headerSetting(s) {
-    if (s === 'center') {
-      return (
-        <header className='header'>
-          <img src={logo} alt="Frostward" style={{width: '50px'}} />
-        </header>
-      )
-    } else if (s === 'full') {
+  function headerSetting() {
+    if (props.width > 500){
       return (
         <header className='header'>
           <div className='header-left' >
@@ -25,23 +19,25 @@ function Header (props) {
           </div>
         </header>
       )
+    } else {
+      return (
+        <header className='header'>
+          <div style={{height: "20px"}}></div>
+        </header>
+      )
     }
   }
 
-  return headerSetting('full')
+  return headerSetting()
 }
 
-export function Foot (props) {
+export function Foot () {
 
-  function headerSetting(s) {
-    return (
-      <div className='foot' >
-        <a className='foot-text' href="https://www.linkedin.com/in/jesper-fasth-8a8629207/">Website by Jesper Fasth</a>
-      </div>
-    )
-  }
-
-  return headerSetting('full')
+  return (
+    <div className='foot' >
+      <a className='foot-text' href="https://www.linkedin.com/in/jesper-fasth-8a8629207/">Website by Jesper Fasth</a>
+    </div>
+  )
 }
 
 export default Header

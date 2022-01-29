@@ -8,15 +8,14 @@ function Info (props) {
   return (
     <div>
       <div className='info-box'>
-        
-        <h2 style={{fontSize: "30px"}} >Features a Swedish key layout</h2>
+        <h2 style={{fontSize: props.width/14}} >Features a Swedish key layout</h2>
       </div>
-      <div className='container' style={{paddingTop: "20px"}} >
+      <div className='container' >
         <div className='fixed'>
-          <img src={leftSide} alt="asdf" style={{width: "85%"}}/>
+          <img src={leftSide} alt="leftSide" style={{width: "85%"}}/>
         </div>
         <div className='flex-item' >
-          <img src={rightSide} alt="adfasdf" style={{width: "85%"}}/>
+          <img src={rightSide} alt="rightSide" style={{width: "85%"}}/>
         </div>
       </div>
     </div>
