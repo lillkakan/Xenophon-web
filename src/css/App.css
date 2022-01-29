@@ -2,6 +2,6 @@
   text-align: center;
   color: white;
   font-family: 'Lora', serif;
-  background-color: #7477de;
+  background-color: var(--botColor);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

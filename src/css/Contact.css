@@ -1,6 +1,6 @@
 .contact {
   overflow: hidden;
-  background-color: #56c5cb;
+  background-color: var(--upperColor);
   padding: 10px 10px 0px 10px;
 }
 
@@ -13,11 +13,11 @@
 }
 
 .contact a:hover {
-  filter: invert(45%) sepia(62%) saturate(1592%) hue-rotate(215deg) brightness(95%) contrast(81%);
+  filter: invert(43%) sepia(16%) saturate(1499%) hue-rotate(166deg) brightness(95%) contrast(94%);
   transform: scale(1.2);
 }
 
 .contact a.active {
-  background-color: #56c5cb;
+  background-color: var(--upperColor);
   color: white;
 }

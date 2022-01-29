@@ -1,8 +1,9 @@
 
+
 * {
   text-align: center;
   font-family: 'Dongle';
-  color: #7477de;
+  color: var(--botColor);
 }
 
 h1 {
@@ -17,8 +18,8 @@ p {
 }
 
 .info-box {
-  background-color: #56c5cb;
-  text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+  background-color: var(--upperColor);
+  text-shadow: -1px -1px 0 var(--upperColor), 1px -1px 0 24var(--upperColor)6EB9, -1px 1px 0 var(--upperColor), 1px 1px 0 var(--upperColor);
   border-radius: 20px;
   width: 90%;
   margin: 0 auto;

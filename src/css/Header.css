@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #56c5cb;
+  background-color: var(--upperColor);
   padding: 10px 10px 0px 10px;
 }
 
@@ -36,12 +36,12 @@
 .text {
   text-align: center;
   font-family: Ubuntu Mono;
-  color: #7477de;
-  text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+  color: var(--botColor);
+  text-shadow: -1px -1px 0 var(--upperColor), 1px -1px 0 var(--upperColor), -1px 1px 0 var(--upperColor), 1px 1px 0 var(--upperColor);
 }
 
 .foot {
-  background-color: #7477de;
+  background-color: var(--botColor);
   top: 0;
   bottom: 0;
   left: 0;

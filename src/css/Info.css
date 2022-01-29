@@ -2,6 +2,10 @@
 .info-text {
   text-align: center;
   font-family: 'Dongle';
-  color: #56c5cb;
-  text-shadow: -1px -1px 0 #7477de, 1px -1px 0 #7477de, -1px 1px 0 #7477de, 1px 1px 0 #7477de;
+  color: var(--upperColor);
+  text-shadow: -1px -1px 0 var(--botColor), 1px -1px 0 var(--botColor), -1px 1px 0 var(--botColor), 1px 1px 0 var(--botColor);
+}
+
+.thisText {
+  color: #eac435;
 }

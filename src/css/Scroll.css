@@ -2,7 +2,7 @@
 .container {
   position: relative;
   text-align: center;
-  background-color: #7477de;
+  background-color: var(--botColor);
 }
 
 .text-on-top-image {
@@ -22,13 +22,13 @@
 .text {
   text-align: center;
   font-family: Ubuntu Mono;
-  color: #7477de;
-  text-shadow: -1px -1px 0 #56c5cb, 1px -1px 0 #56c5cb, -1px 1px 0 #56c5cb, 1px 1px 0 #56c5cb;
+  color: var(--botColor);
+  text-shadow: -1px -1px 0 var(--upperColor), 1px -1px 0 var(--upperColor), -1px 1px 0 var(--upperColor), 1px 1px 0 var(--upperColor);
 }
 
 .slogan {
   text-align: center;
   font-family: 'Dongle';
-  color: #56c5cb;
-  text-shadow: -1px -1px 0 #7477de, 1px -1px 0 #7477de, -1px 1px 0 #7477de, 1px 1px 0 #7477de;
+  color: var(--upperColor);
+  text-shadow: -1px -1px 0 var(--botColor), 1px -1px 0 var(--botColor), -1px 1px 0 var(--botColor), 1px 1px 0 var(--botColor);
 }
