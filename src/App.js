@@ -1,7 +1,7 @@
 import Header, {Foot} from './content/Header'
-import Scroll from './content/Scroll'
-import Info from './content/Info.js'
-import Processor from './content/Processor.js'
+import FrontImage from './content/FrontImage'
+import Layout from './content/Layout.js'
+import Content from './content/Content.js'
 import useWindowDimensions from './functions/useWindowDimensions';
 
 
@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App" id='app'>
       <Header width={width} />
-      <Scroll width={width} />
-      <Processor width={width} />
-      <Info width={width} />
+      <FrontImage width={width} />
+      <Content width={width} />
+      <Layout width={width} />
       <Foot />
     </div>
   );

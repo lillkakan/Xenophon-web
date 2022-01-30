@@ -1,5 +1,5 @@
 import '../css/General.css'
-import '../css/Info.css'
+import '../css/Layout.css'
 import intLeft from '../images/intLeft.png'
 import intRight from '../images/intRight.png'
 import sweLeft from '../images/sweLeft.png'
@@ -7,9 +7,9 @@ import sweRight from '../images/sweRight.png'
 
 import { useState } from 'react';
 
-function Info (props) {
+function Layout (props) {
 
-  const width = "70%"
+  const width = "80%"
 
   const inter = {left: intLeft,right: intRight, name: "international", color: "#0F0F0F"}
   const swed = {left: sweLeft,right: sweRight, name: "Swedish", color: "#eac435"}
@@ -47,4 +47,4 @@ function Info (props) {
   )
 }
 
-export default Info
+export default Layout

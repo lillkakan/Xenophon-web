@@ -1,9 +1,9 @@
-import '../css/Scroll.css'
+import '../css/FrontImage.css'
 import bigImage from '../images/xenophon.png'
 import bigImageNo3D from '../images/xenophon_keyless.png'
 import { useState } from 'react';
 
-function Scroll (props) { 
+function FrontImage (props) { 
 
   const [imageSrc, setImageSrc] = useState(bigImage);
 
@@ -29,4 +29,4 @@ function Scroll (props) {
   )
 } 
 
-export default Scroll
+export default FrontImage
