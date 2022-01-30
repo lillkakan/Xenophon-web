@@ -4,6 +4,8 @@ import left from '../images/left.png'
 import right from '../images/right.png'
 import u1 from '../images/U1.png'
 import u2 from '../images/U2.png'
+import kic from '../images/KIC.png'
+import oh from '../images/OH.png'
 
 function Processor (props) {
 
@@ -11,6 +13,17 @@ function Processor (props) {
 
   return (
     <div>
+      <div className='info-box'>
+        <h2 className='thisText' style={{fontSize: props.width/18}} >Features open-source hardware</h2>
+      </div>
+      <div className='container' >
+        <div className='fixed'>
+          <img src={oh} alt="oh" style={{width: circleWidth}}/>
+        </div>
+        <div className='flex-item' >
+          <img src={kic} alt="kic" style={{width: circleWidth}}/>
+        </div>
+      </div>
       <div className='info-box'>
         <h2 className='thisText' style={{fontSize: props.width/18}} >Features ortholinear key design</h2>
       </div>

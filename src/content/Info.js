@@ -16,30 +16,26 @@ function Info (props) {
 
   const [choice, setchoice] = useState(inter);
 
-  function toggleChoice () {
-    if (choice.name === "international"){
-      setchoice(swed)
-    } else if (choice.name === "Swedish"){
-      setchoice(inter)
-    }
+  function setSwe () {
+    setchoice(swed)
+  }
+
+  function setInt () {
+    setchoice(inter)
   }
 
   return (
     <div >
-      <div  className='info-box' >
+      <div  className='info-box'>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} >Features a </h2>
-        <h2 className='choice' style={
-          {
-            fontSize: props.width/18, 
-            color: choice.color, 
-            borderColor: choice.color === swed.color ? inter.color : swed.color,
-            display: "inline", 
-          }
-        } onClick={toggleChoice}>{choice.name}</h2>
+        <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} >{choice.name}</h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>
-        
+        <div >
+          <div className='circle' style={{fontSize: props.width/30, display: "inline"}} onClick={setInt} > 🌐 </div>
+          <div className='circle' style={{fontSize: props.width/30, display: "inline"}} onClick={setSwe} > 🇸🇪 </div>
+        </div>
       </div>
-      <div className='container' style={{paddingTop: "40px"}} >
+      <div className='container' style={{backgroundColor: "#3F76A6"}} >
         <div className='fixed'>
           <img src={choice.left} alt="leftSide" style={{width: width}}/>
         </div>
