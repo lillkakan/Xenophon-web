@@ -7,6 +7,7 @@ import '../css/General.css'
  */
 function ContentBox (props) {
 
+
   return (
     <div>
       <div className='info-box'>

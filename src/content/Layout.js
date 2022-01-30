@@ -4,6 +4,9 @@ import intLeft from '../images/intLeft.png'
 import intRight from '../images/intRight.png'
 import sweLeft from '../images/sweLeft.png'
 import sweRight from '../images/sweRight.png'
+import sweIcon from '../images/sweden-svgrepo-com.svg'
+import intIcon from '../images/drawing.svg'
+
 
 import { useState } from 'react';
 
@@ -20,8 +23,16 @@ function Layout (props) {
     setchoice(swed)
   }
 
+  function isSwe () {
+    return choice.name === swed.name
+  }
+
   function setInt () {
     setchoice(inter)
+  }
+
+  function isInt () {
+    return choice.name === inter.name
   }
 
   return (
@@ -31,8 +42,8 @@ function Layout (props) {
         <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} >{choice.name}</h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>
         <div >
-          <div className='circle' style={{fontSize: props.width/30, display: "inline"}} onClick={setInt} > 🌐 </div>
-          <div className='circle' style={{fontSize: props.width/30, display: "inline"}} onClick={setSwe} > 🇸🇪 </div>
+          <img className='circle' style={{display: "inline", filter: isSwe() ? "" : "brightness(50%)"}} width={props.width/36} onClick={setSwe} src={sweIcon} alt="sweIcon" />
+          <img className='circle' style={{display: "inline", filter: isInt() ? "" : "brightness(50%)"}} width={props.width/32} onClick={setInt} src={intIcon} alt="intIcon" />
         </div>
       </div>
       <div className='container' style={{backgroundColor: "#3F76A6"}} >
