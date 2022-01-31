@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Xenophon-web/static/css/main.9acd31c6.chunk.css",
-    "main.js": "/Xenophon-web/static/js/main.e551a1ea.chunk.js",
-    "main.js.map": "/Xenophon-web/static/js/main.e551a1ea.chunk.js.map",
+    "main.css": "/Xenophon-web/static/css/main.d1eeb930.chunk.css",
+    "main.js": "/Xenophon-web/static/js/main.89863005.chunk.js",
+    "main.js.map": "/Xenophon-web/static/js/main.89863005.chunk.js.map",
     "runtime-main.js": "/Xenophon-web/static/js/runtime-main.ef55e17e.js",
     "runtime-main.js.map": "/Xenophon-web/static/js/runtime-main.ef55e17e.js.map",
-    "static/js/2.5031a4ac.chunk.js": "/Xenophon-web/static/js/2.5031a4ac.chunk.js",
-    "static/js/2.5031a4ac.chunk.js.map": "/Xenophon-web/static/js/2.5031a4ac.chunk.js.map",
+    "static/js/2.f80f21e7.chunk.js": "/Xenophon-web/static/js/2.f80f21e7.chunk.js",
+    "static/js/2.f80f21e7.chunk.js.map": "/Xenophon-web/static/js/2.f80f21e7.chunk.js.map",
     "index.html": "/Xenophon-web/index.html",
-    "static/css/main.9acd31c6.chunk.css.map": "/Xenophon-web/static/css/main.9acd31c6.chunk.css.map",
-    "static/js/2.5031a4ac.chunk.js.LICENSE.txt": "/Xenophon-web/static/js/2.5031a4ac.chunk.js.LICENSE.txt",
+    "static/css/main.d1eeb930.chunk.css.map": "/Xenophon-web/static/css/main.d1eeb930.chunk.css.map",
+    "static/js/2.f80f21e7.chunk.js.LICENSE.txt": "/Xenophon-web/static/js/2.f80f21e7.chunk.js.LICENSE.txt",
     "static/media/3d.b19a4c63.png": "/Xenophon-web/static/media/3d.b19a4c63.png",
     "static/media/KeyCube.2f3ffbd9.png": "/Xenophon-web/static/media/KeyCube.2f3ffbd9.png",
     "static/media/OH.0598f012.png": "/Xenophon-web/static/media/OH.0598f012.png",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ef55e17e.js",
-    "static/js/2.5031a4ac.chunk.js",
-    "static/css/main.9acd31c6.chunk.css",
-    "static/js/main.e551a1ea.chunk.js"
+    "static/js/2.f80f21e7.chunk.js",
+    "static/css/main.d1eeb930.chunk.css",
+    "static/js/main.89863005.chunk.js"
   ]
 }
