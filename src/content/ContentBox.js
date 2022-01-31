@@ -7,11 +7,11 @@ import '../css/General.css'
  */
 function ContentBox (props) {
 
-
   return (
     <div>
       <div className='info-box'>
-        <h2 className='thisText' style={{fontSize: props.fontSize/18}} >Features {props.name}</h2>
+        <h2 style={{fontSize: props.fontSize/18}} >Features {props.name}</h2>
+        { props.desc ? <h3 style={{fontSize: props.fontSize/28, marginTop: -props.fontSize/14}} >{props.desc}</h3> : null}
       </div>
       <div className='container' >
         <div className='fixed'>

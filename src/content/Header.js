@@ -35,7 +35,7 @@ export function Foot () {
 
   return (
     <div className='foot' >
-      <a className='foot-text' href="https://www.linkedin.com/in/jesper-fasth-8a8629207/">Website by Jesper Fasth</a>
+      <a className='foot-text' href="https://github.com/lillkakan">@lillkakan 2022</a>
     </div>
   )
 }

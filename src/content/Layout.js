@@ -42,11 +42,11 @@ function Layout (props) {
         <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} >{choice.name}</h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>
         <div >
-          <img className='circle' style={{display: "inline", filter: isSwe() ? "" : "brightness(50%)"}} width={props.width/36} onClick={setSwe} src={sweIcon} alt="sweIcon" />
-          <img className='circle' style={{display: "inline", filter: isInt() ? "" : "brightness(50%)"}} width={props.width/32} onClick={setInt} src={intIcon} alt="intIcon" />
+          <img className='circle' style={{display: "inline", filter: isSwe() ? "brightness(100%)" : "", padding: "2px"}} width={props.width/36} onClick={setSwe} src={sweIcon} alt="sweIcon" />
+          <img className='circle' style={{display: "inline", filter: isInt() ? "brightness(100%)" : "", padding: "2px"}} width={props.width/32} onClick={setInt} src={intIcon} alt="intIcon" />
         </div>
       </div>
-      <div className='container' style={{backgroundColor: "#3F76A6"}} >
+      <div className='container' style={{backgroundColor: "#3F76A6", paddingBottom: props.width/60}} >
         <div className='fixed'>
           <img src={choice.left} alt="leftSide" style={{width: width}}/>
         </div>

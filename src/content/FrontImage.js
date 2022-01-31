@@ -36,7 +36,7 @@ function FrontImage (props) {
         <h1 className='text' style={{fontSize: props.width/text.div}} >{text.name}</h1>
       </div>
       <div className='text-on-bottom-image'>
-        <h1 className='slogan' style={{fontSize: props.width/25}}>An ergonomic split Keyboard</h1>
+        <h1 className='slogan' style={{fontSize: props.width/25}}>An ortholinear split Keyboard</h1>
       </div>
     </div>
   )

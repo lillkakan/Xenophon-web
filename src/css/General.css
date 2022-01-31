@@ -19,6 +19,11 @@ h2 {
   user-select: none;
 }
 
+h3 {
+  color: #0F0F0F;
+  user-select: none;
+}
+
 a {
   color: #0F0F0F;
   font-family: 'Dongle';
