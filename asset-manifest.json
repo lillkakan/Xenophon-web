@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Xenophon-web/static/css/main.fd460a4f.chunk.css",
-    "main.js": "/Xenophon-web/static/js/main.3eb6a564.chunk.js",
-    "main.js.map": "/Xenophon-web/static/js/main.3eb6a564.chunk.js.map",
+    "main.css": "/Xenophon-web/static/css/main.9acd31c6.chunk.css",
+    "main.js": "/Xenophon-web/static/js/main.e551a1ea.chunk.js",
+    "main.js.map": "/Xenophon-web/static/js/main.e551a1ea.chunk.js.map",
     "runtime-main.js": "/Xenophon-web/static/js/runtime-main.ef55e17e.js",
     "runtime-main.js.map": "/Xenophon-web/static/js/runtime-main.ef55e17e.js.map",
     "static/js/2.5031a4ac.chunk.js": "/Xenophon-web/static/js/2.5031a4ac.chunk.js",
     "static/js/2.5031a4ac.chunk.js.map": "/Xenophon-web/static/js/2.5031a4ac.chunk.js.map",
     "index.html": "/Xenophon-web/index.html",
-    "static/css/main.fd460a4f.chunk.css.map": "/Xenophon-web/static/css/main.fd460a4f.chunk.css.map",
+    "static/css/main.9acd31c6.chunk.css.map": "/Xenophon-web/static/css/main.9acd31c6.chunk.css.map",
     "static/js/2.5031a4ac.chunk.js.LICENSE.txt": "/Xenophon-web/static/js/2.5031a4ac.chunk.js.LICENSE.txt",
     "static/media/3d.b19a4c63.png": "/Xenophon-web/static/media/3d.b19a4c63.png",
     "static/media/KeyCube.2f3ffbd9.png": "/Xenophon-web/static/media/KeyCube.2f3ffbd9.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.ef55e17e.js",
     "static/js/2.5031a4ac.chunk.js",
-    "static/css/main.fd460a4f.chunk.css",
-    "static/js/main.3eb6a564.chunk.js"
+    "static/css/main.9acd31c6.chunk.css",
+    "static/js/main.e551a1ea.chunk.js"
   ]
 }
