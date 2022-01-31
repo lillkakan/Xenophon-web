@@ -7,13 +7,10 @@
 }
 
 .choice {
-  padding-left: 10px;
-  padding-right: 10px;
   transition: transform .2s;
 }
 
 .choiceButton {
-  
   border-style: solid;
   border-width: 15px 15px;
   border-radius: 50px;

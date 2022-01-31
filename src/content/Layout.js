@@ -39,7 +39,7 @@ function Layout (props) {
     <div >
       <div  className='info-box'>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} >Features a </h2>
-        <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} >{choice.name}</h2>
+        <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} > {choice.name} </h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>
         <div >
           <img className='circle' style={{display: "inline", filter: isSwe() ? "brightness(100%)" : "", padding: "2px"}} width={props.width/36} onClick={setSwe} src={sweIcon} alt="sweIcon" />

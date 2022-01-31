@@ -9,14 +9,14 @@ import useWindowDimensions from './functions/useWindowDimensions';
 
 function App() {
 
-  const { width } = useWindowDimensions();
+  const { height, width } = useWindowDimensions();
 
   return (
     <div className="App" id='app'>
       <Header width={width} />
       <FrontImage width={width} />
-      <Content width={width} />
-      <Layout width={width} />
+      <Content width={width} height={height} />
+      <Layout width={width} height={height}  />
       <Sources />
       <Foot />
     </div>

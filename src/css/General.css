@@ -47,5 +47,6 @@ p {
 }
 .flex-item {
   width: 50%;
+  align-self: center;
   flex-grow: 1;
 }
