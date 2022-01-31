@@ -29,6 +29,10 @@ a {
   font-weight: bold;
 }
 
+em {
+  color: #0F0F0F;
+}
+
 .info-box {
   background-color: var(--upperColor);
   margin: 0 auto;
