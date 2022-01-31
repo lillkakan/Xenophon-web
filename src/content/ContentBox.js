@@ -1,4 +1,5 @@
 import '../css/General.css'
+import '../css/Content.css'
 
 /**
  * 
@@ -15,10 +16,10 @@ function ContentBox (props) {
       </div>
       <div className='container' >
         <div className='fixed'>
-          <img src={props.left} alt="oh" style={{width: props.width}}/>
+          <img className='cirimg' src={props.left} alt="oh" style={{width: props.width}}/>
         </div>
         <div className='flex-item' >
-          <img src={props.right} alt="kic" style={{width: props.width}}/>
+          <img className='cirimg' src={props.right} alt="kic" style={{width: props.width}}/>
         </div>
       </div>
     </div>

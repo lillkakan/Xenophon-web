@@ -1,0 +1,9 @@
+
+.cirimg {
+  transition: transform .4s;
+  user-select: none;
+}
+
+.cirimg:hover {
+  transform: scale(1.05);
+}

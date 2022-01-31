@@ -1,4 +1,5 @@
 import '../css/General.css'
+import '../css/Content.css'
 import left from '../images/left.png'
 import u1 from '../images/U1.png'
 import u2 from '../images/U2.png'
@@ -36,10 +37,10 @@ function Content (props) {
       </div>
       <div className='container' >
         <div className='fixed'>
-          <img src={oh} alt="oh" style={{width: circleWidth}}/>
+          <img className='cirimg' src={oh} alt="oh" style={{width: circleWidth}}/>
         </div>
         <div className='flex-item' >
-          <img src={imageSrc} alt="pcb" onClick={toggleImage} style={{width: circleWidth}}/>
+          <img className='cirimg' src={imageSrc} alt="pcb" onClick={toggleImage} style={{width: circleWidth}}/>
         </div>
       </div>
     </div>
@@ -49,7 +50,7 @@ function Content (props) {
         </div>
       <div className='container' >
         <div className='fixed'>
-          <img src={left} alt="oh" style={{width: circleWidth}}/>
+          <img className='cirimg' src={left} alt="oh" style={{width: circleWidth}}/>
         </div>
           <div className='flex-item' >
             <div style={{width: textWidth, lineHeight: props.height/600}} >
