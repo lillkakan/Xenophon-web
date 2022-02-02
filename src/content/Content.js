@@ -1,13 +1,15 @@
 import '../css/General.css'
 import '../css/Content.css'
 import left from '../images/left.png'
-import u1 from '../images/U1.png'
-import u2 from '../images/U2.png'
+//import u1 from '../images/U1.png'
+//import u2 from '../images/U2.png'
 import pcb from '../images/pcb.png'
 import pcb3d from '../images/3d.png'
 import oh from '../images/OH.png'
 import qmkode from '../images/QMCode.png'
 import qmk from '../images/QMK.png'
+import small from '../images/small.png'
+import thick from '../images/thick.png'
 import ContentBox from './ContentBox'
 
 import { useState } from 'react';
@@ -27,6 +29,8 @@ function Content (props) {
       setImageSrc(pcb)
     } 
   }
+
+  // <ContentBox name="two ATmega32U4s" desc ="Connected via a TRS jack" left={u1}   right={u2}    width={circleWidth} fontSize={props.width} />
 
   return (
     <div>
@@ -66,8 +70,8 @@ function Content (props) {
           </div>
         </div>
       </div>
+      <ContentBox name="two chassi designs" desc ="One simple, slick design and an inclined more ergonomic one" left={small}   right={thick}   width={circleWidth} fontSize={props.width} />
       <ContentBox name="QMK firmware" left={qmkode}   right={qmk}   width={circleWidth} fontSize={props.width} />
-      <ContentBox name="two ATmega32U4s" desc ="Connected via a TRS jack" left={u1}   right={u2}    width={circleWidth} fontSize={props.width} />
       <div style={{minHeight: props.width/30}}/>
     </div>
   )

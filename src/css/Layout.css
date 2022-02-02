@@ -1,7 +1,6 @@
 
 .info-text {
   text-align: center;
-  font-family: 'Dongle';
   color: var(--upperColor);
   text-shadow: -1px -1px 0 var(--botColor), 1px -1px 0 var(--botColor), -1px 1px 0 var(--botColor), 1px 1px 0 var(--botColor);
 }
