@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Xenophon-web/static/css/main.cc3e7579.chunk.css",
-    "main.js": "/Xenophon-web/static/js/main.43d3722c.chunk.js",
-    "main.js.map": "/Xenophon-web/static/js/main.43d3722c.chunk.js.map",
+    "main.css": "/Xenophon-web/static/css/main.961247fc.chunk.css",
+    "main.js": "/Xenophon-web/static/js/main.8428dc83.chunk.js",
+    "main.js.map": "/Xenophon-web/static/js/main.8428dc83.chunk.js.map",
     "runtime-main.js": "/Xenophon-web/static/js/runtime-main.ef55e17e.js",
     "runtime-main.js.map": "/Xenophon-web/static/js/runtime-main.ef55e17e.js.map",
     "static/js/2.f80f21e7.chunk.js": "/Xenophon-web/static/js/2.f80f21e7.chunk.js",
     "static/js/2.f80f21e7.chunk.js.map": "/Xenophon-web/static/js/2.f80f21e7.chunk.js.map",
     "index.html": "/Xenophon-web/index.html",
-    "static/css/main.cc3e7579.chunk.css.map": "/Xenophon-web/static/css/main.cc3e7579.chunk.css.map",
+    "static/css/main.961247fc.chunk.css.map": "/Xenophon-web/static/css/main.961247fc.chunk.css.map",
     "static/js/2.f80f21e7.chunk.js.LICENSE.txt": "/Xenophon-web/static/js/2.f80f21e7.chunk.js.LICENSE.txt",
-    "static/media/3d.b19a4c63.png": "/Xenophon-web/static/media/3d.b19a4c63.png",
+    "static/media/3d.85864256.png": "/Xenophon-web/static/media/3d.85864256.png",
     "static/media/KeyCube.2f3ffbd9.png": "/Xenophon-web/static/media/KeyCube.2f3ffbd9.png",
     "static/media/OH.0598f012.png": "/Xenophon-web/static/media/OH.0598f012.png",
     "static/media/QMCode.d009a5a7.png": "/Xenophon-web/static/media/QMCode.d009a5a7.png",
@@ -25,14 +25,13 @@
     "static/media/sweRight.ea777feb.png": "/Xenophon-web/static/media/sweRight.ea777feb.png",
     "static/media/sweden-svgrepo-com.a0fd41ba.svg": "/Xenophon-web/static/media/sweden-svgrepo-com.a0fd41ba.svg",
     "static/media/thick.afaee507.png": "/Xenophon-web/static/media/thick.afaee507.png",
-    "static/media/twitter.f1eb2c05.svg": "/Xenophon-web/static/media/twitter.f1eb2c05.svg",
     "static/media/xenophon.efc15da9.png": "/Xenophon-web/static/media/xenophon.efc15da9.png",
     "static/media/xenophon_keyless.78dbc852.png": "/Xenophon-web/static/media/xenophon_keyless.78dbc852.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ef55e17e.js",
     "static/js/2.f80f21e7.chunk.js",
-    "static/css/main.cc3e7579.chunk.css",
-    "static/js/main.43d3722c.chunk.js"
+    "static/css/main.961247fc.chunk.css",
+    "static/js/main.8428dc83.chunk.js"
   ]
 }
