@@ -10,7 +10,7 @@ function Contact (props) {
       <a href="https://twitter.com/lillkakan">
         <img width={size} height={size} src={twitter} alt="twitter" />
       </a>
-      <a href="https://github.com/lillkakan">
+      <a href="https://github.com/lillkakan/Xenophon">
         <img width={size} height={size} src={github} alt="github" />
       </a>
     </div>
