@@ -1,4 +1,9 @@
 
+.layout-box {
+  background-color: var(--upperColor);
+  margin: 0 auto;
+}
+
 .info-text {
   text-align: center;
   color: var(--upperColor);

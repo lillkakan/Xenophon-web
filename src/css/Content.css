@@ -7,3 +7,32 @@
 .cirimg:hover {
   transform: scale(1.05);
 }
+
+.union {
+  position: relative;
+}
+
+.front {
+  transition: transform .2s;
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  cursor: pointer;
+  border: solid black 1px;
+}
+
+.back {
+  transition: transform .2s;
+  width: 48%;
+  align-self: center;
+  clear: Both;
+  z-index:2;
+}
+
+.front:hover {
+  transform: scale(1.05);
+}
+
+.back:hover {
+  transform: scale(1.05);
+}

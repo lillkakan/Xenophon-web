@@ -37,7 +37,7 @@ function Layout (props) {
 
   return (
     <div >
-      <div  className='info-box'>
+      <div  className='layout-box'>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} >Features a </h2>
         <h2 className='choice' style={{ fontSize: props.width/18, color: choice.color, display: "inline" }} > {choice.name} </h2>
         <h2 style={{fontSize: props.width/18, color: inter.color, display: "inline"}} > key layout</h2>

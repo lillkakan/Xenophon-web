@@ -13,7 +13,6 @@
 }
 
 .contact a:hover {
-  filter: invert(43%) sepia(16%) saturate(1499%) hue-rotate(166deg) brightness(95%) contrast(94%);
   transform: scale(1.2);
 }
 

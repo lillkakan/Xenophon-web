@@ -15,7 +15,7 @@ function Header (props) {
             </a>
           </div>
           <div className='header-right' >
-            <Contact size='40px' />
+            <Contact size='45px' />
           </div>
         </header>
       )
