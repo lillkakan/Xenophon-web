@@ -61,7 +61,7 @@ function Content (props) {
             <div style={{width: textWidth, lineHeight: props.height/600}} >
               <div style={{paddingBottom: props.width/80}} />
                 <h2 style={{display: "inline", fontSize: props.width/30}}> If ergonomics are your goal, switching to an </h2>
-                <a style={{display: "inline", fontSize: props.width/30, color: "#BE4C4C"}} href="https://content.iospress.com/articles/work/wor01109">ergonomic split keyboard</a>
+                <a style={{display: "inline", fontSize: props.width/30, color: "#3F76A6"}} href="https://content.iospress.com/articles/work/wor01109">ergonomic split keyboard</a>
                 <h2 style={{display: "inline", fontSize: props.width/30}}> is proven to improve ergonomics and reduce pain.</h2>
                 <div>
                   <h2 style={{display: "inline", fontSize: props.width/30}}>- Jake Harrington</h2>

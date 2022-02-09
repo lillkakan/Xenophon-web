@@ -14,23 +14,23 @@ h1 {
 }
 
 h2 {
-  color: #0F0F0F;
+  color: white;
   user-select: none;
 }
 
 h3 {
-  color: #0F0F0F;
+  color: white;
   user-select: none;
 }
 
 a {
-  color: #0F0F0F;
+  color: white;
   font-family: 'Dongle';
   font-weight: bold;
 }
 
 em {
-  color: #0F0F0F;
+  color: white;
 }
 
 .info-box {
