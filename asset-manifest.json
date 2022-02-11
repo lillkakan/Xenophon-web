@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Xenophon-web/static/css/main.c4966fb2.chunk.css",
-    "main.js": "/Xenophon-web/static/js/main.ffdbbd5a.chunk.js",
-    "main.js.map": "/Xenophon-web/static/js/main.ffdbbd5a.chunk.js.map",
+    "main.js": "/Xenophon-web/static/js/main.239ce7d2.chunk.js",
+    "main.js.map": "/Xenophon-web/static/js/main.239ce7d2.chunk.js.map",
     "runtime-main.js": "/Xenophon-web/static/js/runtime-main.ef55e17e.js",
     "runtime-main.js.map": "/Xenophon-web/static/js/runtime-main.ef55e17e.js.map",
     "static/js/2.f80f21e7.chunk.js": "/Xenophon-web/static/js/2.f80f21e7.chunk.js",
@@ -16,15 +16,15 @@
     "static/media/QMCode.d009a5a7.png": "/Xenophon-web/static/media/QMCode.d009a5a7.png",
     "static/media/QMK.ffad10fe.png": "/Xenophon-web/static/media/QMK.ffad10fe.png",
     "static/media/drawing.6659e913.svg": "/Xenophon-web/static/media/drawing.6659e913.svg",
-    "static/media/intLeft.0b00007f.png": "/Xenophon-web/static/media/intLeft.0b00007f.png",
-    "static/media/intRight.c9976e3f.png": "/Xenophon-web/static/media/intRight.c9976e3f.png",
+    "static/media/intLeft.9876d299.png": "/Xenophon-web/static/media/intLeft.9876d299.png",
+    "static/media/intRight.58699639.png": "/Xenophon-web/static/media/intRight.58699639.png",
     "static/media/left.5dc6e5c9.png": "/Xenophon-web/static/media/left.5dc6e5c9.png",
     "static/media/pcb.0defe7b5.png": "/Xenophon-web/static/media/pcb.0defe7b5.png",
-    "static/media/small.49aee10c.png": "/Xenophon-web/static/media/small.49aee10c.png",
-    "static/media/sweLeft.89f037ec.png": "/Xenophon-web/static/media/sweLeft.89f037ec.png",
-    "static/media/sweRight.ea777feb.png": "/Xenophon-web/static/media/sweRight.ea777feb.png",
+    "static/media/small.44c72e88.png": "/Xenophon-web/static/media/small.44c72e88.png",
+    "static/media/sweLeft.ea00f88b.png": "/Xenophon-web/static/media/sweLeft.ea00f88b.png",
+    "static/media/sweRight.c331bcd5.png": "/Xenophon-web/static/media/sweRight.c331bcd5.png",
     "static/media/sweden-svgrepo-com.a0fd41ba.svg": "/Xenophon-web/static/media/sweden-svgrepo-com.a0fd41ba.svg",
-    "static/media/thick.afaee507.png": "/Xenophon-web/static/media/thick.afaee507.png",
+    "static/media/thick.f5f05d41.png": "/Xenophon-web/static/media/thick.f5f05d41.png",
     "static/media/xenophon.efc15da9.png": "/Xenophon-web/static/media/xenophon.efc15da9.png",
     "static/media/xenophon_keyless.78dbc852.png": "/Xenophon-web/static/media/xenophon_keyless.78dbc852.png"
   },
@@ -32,6 +32,6 @@
     "static/js/runtime-main.ef55e17e.js",
     "static/js/2.f80f21e7.chunk.js",
     "static/css/main.c4966fb2.chunk.css",
-    "static/js/main.ffdbbd5a.chunk.js"
+    "static/js/main.239ce7d2.chunk.js"
   ]
 }
