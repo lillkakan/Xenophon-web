@@ -14,7 +14,7 @@ function Layout (props) {
 
   const width = "80%"
 
-  const inter = {left: intLeft,right: intRight, name: "international", color: "white"}
+  const inter = {left: intLeft,right: intRight, name: "international", color: "#F7F4F3"}
   const swed = {left: sweLeft,right: sweRight, name: "Swedish", color: "#eac435"}
 
   const [choice, setchoice] = useState(inter);

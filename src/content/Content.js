@@ -101,7 +101,7 @@ function Content (props) {
     <div>
       <ClickImage />
       <TextImage />
-      <ContentBox name="two chassi designs" desc ="One simple, slick design and an inclined more ergonomic one" left={small}   right={thick}   width={circleWidth} fontSize={props.width} />
+      <ContentBox name="two chassi designs" desc ="One simple, slick design and one inclined more ergonomic one" left={small}   right={thick}   width={circleWidth} fontSize={props.width} />
       <ContentBox name="QMK firmware" left={qmkode}   right={qmk}   width={circleWidth} fontSize={props.width} />
       
       <div style={{minHeight: props.width/30}}/>
